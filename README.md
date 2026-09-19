@@ -1,6 +1,6 @@
-# trae-api-test-skills
+# api-test-skills
 
-面向 TRAE 的 API 自动化测试 / FastAPI 工程技能包（Skills）。源自一套生产级金融 API 测试平台（pytest 命令行框架 + FastAPI/Vue3 可视化平台）的实战沉淀。
+API 自动化测试 / FastAPI 工程技能包（Skills）。源自一套生产级金融 API 测试平台（pytest 命令行框架 + FastAPI/Vue3 可视化平台）的实战沉淀。
 
 ## Skills
 
@@ -47,14 +47,14 @@
 把想要的 skill 目录整个复制到你的项目下：
 
 ```
-你的项目/.trae/skills/<skill-name>/
+你的项目/.claude/skills/<skill-name>/
 ```
 
 可按需安装任意一个，互不依赖。
 
 ## 使用
 
-在 TRAE 中对 AI 直接描述任务，对应技能会自动触发：
+对 AI 直接描述任务，对应技能会自动触发：
 
 - "帮我给 XX 系统搭一套接口自动化测试框架，base_url 是 https://xxx……" → `api-test-scaffold`
 - "给这个 crud 模块写单元测试，不要连数据库" → `fastapi-fake-db-tests`
